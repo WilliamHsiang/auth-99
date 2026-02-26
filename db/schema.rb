@@ -44,7 +44,7 @@ ActiveRecord::Schema[8.1].define(version: 2022_02_21_190705) do
     t.datetime "updated_at", null: false
     t.integer "user_id"
   end
-
+ 
   create_table "users", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "email"
